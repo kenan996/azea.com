@@ -1,0 +1,353 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+/* img{
+    height: 100%;
+    width: 100%;
+} */
+#header{
+   position: relative;
+   height: 50px;
+}
+header{
+    background-image: url(../images/wide10.jpg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed; 
+
+}
+.header{
+    position: absolute
+}
+.header1{
+    background: black;
+    height: 50px;
+    width: 1350px;
+    position: absolute;
+    opacity: .1;
+    z-index: 50;
+
+}
+.header p{
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 20px;
+    
+}
+.header p i{
+    color: yellow;
+    font-size: 13px;
+    margin-right: 10px;
+}
+.header select{
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 2px;  
+    margin-left: 20px; 
+    transition-duration: .4s;
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    z-index: 70;
+}
+.header select:hover{
+    background: gray;
+    opacity: .8;
+}
+.icons{
+    position: absolute;
+    right: 40px;
+    margin-top: 15px;
+    z-index: 100;
+}
+.icons ul li{
+    font-size: 13px;
+    display: inline-block;
+}
+.f{
+    color: white;
+    margin: 0 10px;
+    transition-duration: .4s;
+}
+.f:hover{
+    color: orange;
+}
+#nav{
+    position: sticky;
+    top: 0px;   
+ }
+ .nav1{
+
+    background: gray;
+    padding-bottom: 30px;
+}
+.logo{
+    position: absolute;
+   
+    left: 110px;
+    height: 55px;
+    width: 140px;
+}
+.joins li a{
+    color: white;
+    text-decoration: none;
+}
+.joins{
+    font-size: 14px;
+    padding-left:  350px;
+    
+}
+.joins li {
+    margin-left: 30px;
+    margin-top:20px;
+    display: inline-block;
+    z-index: 80;
+    
+}
+.joins li a{
+    transition-duration: .4s;
+}
+.joins li a:hover{
+    color: yellow;
+}
+#section1{
+    position: relative;
+    height: 50px;
+}
+.words{
+    color: white;
+    position: absolute;
+    top: 100px;
+}
+.words h1{
+ font-family: 'Noto Serif', serif 700;
+ font-size: 50px;
+ padding-top: 20px;
+}
+.words h1 p{
+    display:inline-block;
+    color: yellow;
+    margin-left: -15px;
+}
+.words p{
+    padding-top: 10px;
+}
+.words button{
+    color: #ddd;
+    background: transparent; 
+    border: 2px solid yellow;
+    border-radius: 15px;
+    height: 40px;
+    width: 170px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    transition-duration: .4s;
+}
+.words:hover button{
+    color: yellow;
+    border:2px solid white;
+}
+.words button:focus{
+    outline: none;
+}
+.yellow{
+    background: rgb(253, 215, 1);
+    height: 60px;
+    width: 1400px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.yellow p{
+    padding-left: 50px;
+}
+.yellow1 p{
+    font-size: 20px;
+}
+.button{
+    overflow: hidden;
+    position: relative;
+    border:solid 2px; 
+    width: 180px;
+    height: 40px;
+    text-align: center;
+    margin-top: -15px;
+    transition-duration: .4s;
+    margin-left: -20px;
+}
+.button p{
+    position: relative;
+    letter-spacing: .4px;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 0px;
+}
+.button:hover p{
+    letter-spacing: .1px;
+    color: white;
+    transition-duration: .4s;
+    z-index: 50;
+}
+.button i{
+    visibility: hidden;
+    position: absolute;
+    padding-left:80px; 
+    transition-duration: .4s; 
+}
+.button:hover i{
+    visibility: visible;
+    color: white;
+    padding-left: 10px;
+  
+}
+.black{
+    position: absolute;
+    background: black;
+    top: 0px;
+    left: 0px;
+    height:40px;
+    width: 0px;
+    transition-duration: .4s;
+    opacity: 1;
+    
+}
+.black:hover{
+    visibility: visible;
+    top: 0px;
+    left: 0px;
+    height:40px;
+    width: 180px;
+    z-index: 1;
+}
+.button:hover .black{
+    visibility: visible;
+    top: 0px;
+    left: 0px;
+    height:40px;
+    width: 180px;
+    z-index: 1;
+}
+
+
+#section3{
+    background-image: url(../images/bg-4.jpg);
+    height: 530px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed; 
+}
+#section>img{
+    height: 500px;
+    width: 800px;
+}
+.haqqimizda p{
+    display:inline-block;
+}
+.haqqimizda h1{
+    border-bottom: 2px solid yellow;
+    color: white;
+    margin-top: 60px;
+    padding-bottom:20px; 
+    width: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .1px;
+
+}
+.haqqimizda1{
+    margin-left: -10px; 
+    padding-top: 20px;
+}
+.haqqimizda2{
+    padding-top: 20px;
+}
+.haqqimizda1 p{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+
+
+.haqqimizda2 p{
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: -1px;
+  
+}
+.img{
+    position: relative;
+}
+.img1 img {
+    transition:0.4s;
+}
+.img1 {
+    height: 350px;
+    width: 550px;
+    overflow: hidden;
+    margin-top: -250px;
+    transition-duration: 1s;
+}
+.img1 a{
+    font-size: 20px;
+    color: #ddd;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 18px;
+    bottom: 150px;
+    left: 250px;
+    border: 2px solid gray;
+    border-radius:  35px;
+    height: 35px;
+    width: 35px;
+}
+.img1 img:hover{
+    transform: scale(1.1);
+}
+.img1 a:hover{
+    background: gray;
+    opacity: .7;
+
+} 
+/* .pictures a{
+     display: block ;
+     text-decoration: none;
+} */
+.pictures img{
+   
+    width: 340px;
+    margin-top: -10px;
+    margin-left: -5px;
+}
+ .pictures  .col-3 a{
+    display: inline-block;
+    background: #999696;
+    color: black;
+    width: 107%;
+    height: 80px;
+    margin-left: -8px;
+    margin-top: -2px;
+    text-decoration: none;
+    transition-duration: .4s;
+}
+#section4:hover .col-3 a{
+    background: black;
+}
+ .pictures  .col-3 a p{
+    padding-top: 10%;
+    padding-left: 30%;
+    transition-duration: .4s;
+}
+#section4:hover .col-3 a p{
+    color: white;
+}
+
